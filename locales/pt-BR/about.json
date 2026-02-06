@@ -6,8 +6,9 @@
   "profile": {
     "name": "Rafael Pereira",
     "title": "Fullstack Developer",
-    "bio1": "Sou um desenvolvedor fullstack com 5 anos de experiência na Dimensão Sistemas, onde tenho colaborado no desenvolvimento de uma solução web inovadora desde o início da minha carreira. Aos 22 anos, já desenvolvi uma forte expertise em tecnologias web modernas e uma paixão particular por desenvolvimento frontend.",
-    "bio2": "Me especializo em construir aplicações responsivas e amigáveis usando React, TypeScript, Angular. Estou constantemente explorando novas tecnologias e abordagens para criar melhores experiências de usuário e soluções mais eficientes."
+    "bio1": "Sou um desenvolvedor fullstack com 5 anos de experiência e uma jornada que começou desde os primeiros passos da Dimensão Sistemas, onde sigo até hoje contribuindo com manutenção com novidades. Nesse tempo, participei de todas as camadas do desenvolvimento, o que me deu uma visão ampla e prática do processo como um todo.",
+    "bio2": "Em 2019, iniciei minha formação com um curso técnico em Desenvolvimento de Sistemas e, logo após concluir, dei continuidade com um tecnólogo em Análise e Desenvolvimento de Sistemas. Desde então, venho aprofundando meus conhecimentos com cursos práticos no balta.io, Alura e pesquisa em documentações. Ao longo da jornada, construí uma base sólida nas principais áreas de desenvolvimento, porque acredito que entender o todo é essencial para criar soluções completas e eficientes.",
+    "bio3": "Apesar do perfil fullstack, é no front-end que me sinto mais em casa. Gosto de criar interfaces bonitas, inovadoras, responsivas e centradas no usuário, sempre com foco mobile first. Ultimamente tenho estudado ferramentas como Figma, Framer e Adobe XD para aproximar ainda mais design e entregar experiências que realmente façam sentido para quem usa."
   },
   "info": {
     "age": {
@@ -30,16 +31,30 @@
   "experience": {
     "title": "Experiência Profissional",
     "items": {
-      "dimensao": {
-        "title": "Fullstack Developer",
+      "estagio-dimensao": {
+        "title": "Desenvolvedor Aprendiz (estágio)",
         "company": "Dimensão Sistemas",
-        "period": "2019 - Presente",
+        "period": "2019 - 2020",
         "description": {
-          "0": "Iniciei minha jornada como estagiário, onde tive a oportunidade de desenvolver o website institucional da empresa",
-          "1": "Atualmente, trabalho no desenvolvimento e manutenção do app principal da empresa, implementando melhorias e novas funcionalidades",
-          "2": "Contribuí significativamente com a implementação do modo escuro no app, melhorando a experiência dos usuários",
-          "3": "Dedico-me à resolução de problemas e otimização do desempenho das aplicações",
-          "4": "Tenho o prazer de compartilhar conhecimento e mentorear dois colegas de equipe em seu desenvolvimento profissional"
+          "0": "Iniciei minha jornada como estagiário e tive acesso a diversos cursos oferecidos pela empresa, o que foi essencial para minha base inicial.",
+          "1": "Conforme eu avançava nos conteúdos, passei por avaliações internas que ajudaram a medir meu progresso e preparar para os desafios reais do time.",
+          "2": "No quarto mês, comecei a atuar de fato nas demandas da empresa, colocando em prática tudo o que vinha estudando.",
+          "3": "Acompanhei de perto meu superior técnico, absorvendo conhecimento nas revisões de código e entendendo a importância dos detalhes.",
+          "4": "Aos poucos, assumi partes específicas do desenvolvimento do site institucional da empresa. Errei bastante, mas aprendi ainda mais com cada desafio."
+        }
+      },
+      "dimensao": {
+        "title": "Desenvolvedor Pleno",
+        "company": "Dimensão Sistemas",
+        "period": "2020 - Presente",
+        "description": {
+          "0": "Após demonstrar evolução e comprometimento durante o estágio, fui contratado como desenvolvedor JR e passei a assumir responsabilidades maiores dentro dos projetos da empresa.",
+          "1": "Comecei com a implementação complexa de uma barra de pesquisa inteligente no menu de ações.",
+          "2": "Hoje desenvolvo e realizo manutenções no app principal da empresa, atuando em melhorias e novas funcionalidades.",
+          "3": "Melhorei a usabilidade e o visual mobile em diversas partes do sistema.",
+          "4": "Participei de integrações de APIs externas para utilizarmos no app.",
+          "5": "Atuo constantemente na identificação e resolução de problemas técnicos e ajustes de performance.",
+          "6": "Tenho o prazer de apoiar no crescimento técnico da equipe, compartilhando conhecimento e auxiliando colegas desenvolvedores."
         }
       }
     }

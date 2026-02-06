@@ -23,9 +23,13 @@
       "title": "Frogs Sports",
       "description": "Coming soon."
     },
-    "moradaportas": {
-      "title": "Morada Portas",
-      "description": "Elegant and professional presentation website developed for Morada Portas, highlighting their premium line of products and services. Built with React, Tailwind CSS, and Framer Motion, it features a sophisticated design with a product catalog to highlight the brand's quality and expertise in the market."
+    "augustodev": {
+      "title": "Augusto Dev - Portfolio",
+      "description": "Modern professional portfolio designed to showcase web development skills, projects, and experience. Built with React, Vite, and Tailwind CSS, featuring smooth animations and dynamic interactions powered by GSAP, delivering an engaging and fully responsive user experience."
+    },
+    "rouleteScriptDoxiwear": {
+      "title": "Discount Roulette - Doxiwear",
+      "description": "Lightweight and customizable discount wheel script designed for Shopify. Enables capturing customer emails and rewarding them with coupons through a responsive and modern interface, featuring email validation, animated wheel interaction, and integration for lead storage using Supabase."
     }
   },
   "cta": {

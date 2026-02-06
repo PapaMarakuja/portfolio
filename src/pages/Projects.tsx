@@ -24,7 +24,7 @@ const Projects = () => {
       title: t('projects:items.unotes.title'),
       description: t('projects:items.unotes.description'),
       image: "/images/uNotes-print.png",
-      tags: ["React", "TypeScript"],
+      tags: ["React", "TypeScript", "C#", "ASP.NET", "PostgreSQL"],
       link: "",
       github: "https://github.com/S3verino/uNotes_app",
       featured: false
@@ -34,7 +34,7 @@ const Projects = () => {
       title: t('projects:items.miasotel.title'),
       description: t('projects:items.miasotel.description'),
       image: "/images/miasotel-print.png",
-      tags: ["React", "TypeScript"],
+      tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "GSAP"],
       link: "https://miasotel.com/",
       github: "https://github.com/PapaMarakuja/mia-website",
       featured: false
@@ -44,10 +44,10 @@ const Projects = () => {
       title: t('projects:items.booreal.title'),
       description: t('projects:items.booreal.description'),
       image: "/images/booreal-print.png",
-      tags: ["React", "TypeScript"],
+      tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "GSAP"],
       link: "https://booreal-lab.web.app/",
       github: "https://github.com/PapaMarakuja/booreal",
-      featured: true
+      featured: false
     },
     {
       id: 4,
@@ -57,18 +57,27 @@ const Projects = () => {
       tags: ["React", "TypeScript", "Laravel"],
       link: "",
       github: "https://github.com/Sapo-Coders/sports_frog",
-      featured: true
+      featured: false
     },
     {
       id: 5,
-      title: t('projects:items.moradaportas.title'),
-      description: t('projects:items.moradaportas.description'),
-      image: "",
-      tags: ["React", "TypeScript"],
-      link: "",
-      github: "https://github.com/PapaMarakuja",
+      title: t('projects:items.augustodev.title'),
+      description: t('projects:items.augustodev.description'),
+      image: "/images/augusto-dev.png",
+      tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "GSAP"],
+      link: "https://augustodev-237cd.web.app/",
+      github: "https://github.com/PapaMarakuja/Augusto.Dev",
       featured: true
-    },
+    }, {
+      id: 6,
+      title: t('projects:items.rouleteScriptDoxiwear.title'),
+      description: t('projects:items.rouleteScriptDoxiwear.description'),
+      image: "/images/doxiwear-roulete.png",
+      tags: ["Vite", "JavaScript", "HTML", "CSS", "Supabase", "Shopify"],
+      link: "https://doxiwear.com/",
+      github: "https://github.com/PapaMarakuja/roulete-script-doxiwear",
+      featured: true
+    }
   ];
 
   const filteredProjects = activeCategory === t('projects:categories.all')
@@ -152,7 +161,7 @@ const Projects = () => {
 
 const ProjectCard = ({ project, index }: { project: Project; index: number }) => {
   const { t } = useTranslation(['projects']);
-  
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}

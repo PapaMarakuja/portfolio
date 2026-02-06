@@ -267,7 +267,7 @@ const ProjectCard = ({ project, index }: {
 };
 
 const skills = [
-  { name: "Inglês", icon: "fas fa-language", level: 95 },
+  { name: "English", icon: "fas fa-language", level: 95 },
   { name: "Angular", icon: "fab fa-angular", level: 92 },
   { name: "TypeScript", icon: "fab fa-js", level: 90 },
   { name: "Tailwind CSS", icon: "fab fa-css3", level: 90 },

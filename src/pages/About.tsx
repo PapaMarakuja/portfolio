@@ -56,6 +56,10 @@ const About = () => {
               {t('about:profile.bio2')}
             </p>
 
+            <p className="text-gray-400 mb-6">
+              {t('about:profile.bio3')}
+            </p>
+
             <div className="flex flex-wrap gap-4">
               <InfoItem label={t('about:info.age.label')} value={t('about:info.age.value')} />
               <InfoItem label={t('about:info.experience.label')} value={t('about:info.experience.value')} />
@@ -77,6 +81,19 @@ const About = () => {
 
           <div className="relative border-l-2 border-primary/30 pl-8 ml-4">
             <ExperienceItem
+              title={t('about:experience.items.estagio-dimensao.title')}
+              company={t('about:experience.items.estagio-dimensao.company')}
+              period={t('about:experience.items.estagio-dimensao.period')}
+              description={[
+                t('about:experience.items.estagio-dimensao.description.0'),
+                t('about:experience.items.estagio-dimensao.description.1'),
+                t('about:experience.items.estagio-dimensao.description.2'),
+                t('about:experience.items.estagio-dimensao.description.3'),
+                t('about:experience.items.estagio-dimensao.description.4')
+              ]}
+            />
+
+            <ExperienceItem
               title={t('about:experience.items.dimensao.title')}
               company={t('about:experience.items.dimensao.company')}
               period={t('about:experience.items.dimensao.period')}
@@ -85,7 +102,9 @@ const About = () => {
                 t('about:experience.items.dimensao.description.1'),
                 t('about:experience.items.dimensao.description.2'),
                 t('about:experience.items.dimensao.description.3'),
-                t('about:experience.items.dimensao.description.4')
+                t('about:experience.items.dimensao.description.4'),
+                t('about:experience.items.dimensao.description.5'),
+                t('about:experience.items.dimensao.description.6')
               ]}
             />
           </div>
@@ -213,6 +232,7 @@ const About = () => {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Git</span>
+                  <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Jira</span>
                   <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Scrum</span>
                   <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">UI/UX</span>
                   <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">{t('about:skills.categories.devops.agile')}</span>

@@ -6,8 +6,9 @@
   "profile": {
     "name": "Rafael Pereira",
     "title": "Fullstack Developer",
-    "bio1": "I'm a fullstack developer with 5 years of experience at Dimensão Sistemas, where I've been collaborating on the development of an innovative web solution since the beginning of my career. At 22, I've already developed strong expertise in modern web technologies and a particular passion for frontend development.",
-    "bio2": "I specialize in building responsive and user-friendly applications using React, TypeScript, and Angular. I'm constantly exploring new technologies and approaches to create better user experiences and more efficient solutions."
+    "bio1": "I am a fullstack developer with 5 years of experience and a journey that began from the early days of Dimensão Sistemas, where I continue to contribute with maintenance and innovations. During this time, I have participated in all layers of development, which has given me a broad and practical view of the process as a whole.",
+    "bio2": "In 2019, I started my education with a technical course in Systems Development and, after completing it, I continued with a technology degree in Systems Analysis and Development. Since then, I have been deepening my knowledge with practical courses at balta.io, Alura, and research in documentation. Throughout the journey, I have built a solid foundation in the main areas of development, because I believe that understanding the whole is essential to create complete and efficient solutions.",
+    "bio3": "Despite my fullstack profile, it's in the front-end where I feel most at home. I enjoy creating beautiful, innovative, responsive, and user-centered interfaces, always with a mobile-first focus. Lately, I have been studying tools like Figma, Framer, and Adobe XD to bring design even closer and deliver experiences that really make sense for users."
   },
   "info": {
     "age": {
@@ -30,16 +31,30 @@
   "experience": {
     "title": "Professional Experience",
     "items": {
-      "dimensao": {
-        "title": "Fullstack Developer",
+      "estagio-dimensao": {
+        "title": "Apprentice Developer (internship)",
         "company": "Dimensão Sistemas",
-        "period": "2019 - Present",
+        "period": "2019 - 2020",
         "description": {
-          "0": "I started my journey as an intern, where I had the opportunity to develop the company's institutional website",
-          "1": "Currently, I work on the development and maintenance of the company's main app, implementing improvements and new features",
-          "2": "I significantly contributed to the implementation of dark mode in the app, improving the user experience",
-          "3": "I dedicate myself to problem-solving and optimizing application performance",
-          "4": "I have the pleasure of sharing knowledge and mentoring two team colleagues in their professional development"
+          "0": "I started my journey as an intern and had access to various courses offered by the company, which was essential for my initial foundation.",
+          "1": "As I progressed through the content, I went through internal evaluations that helped measure my progress and prepare for the real challenges of the team.",
+          "2": "In the fourth month, I began to actually work on the company's demands, putting into practice everything I had been studying.",
+          "3": "I closely followed my technical supervisor, absorbing knowledge in code reviews and understanding the importance of details.",
+          "4": "Gradually, I took on specific parts of the development of the company's institutional website. I made many mistakes, but I learned even more from each challenge."
+        }
+      },
+      "dimensao": {
+        "title": "Mid-level Developer",
+        "company": "Dimensão Sistemas",
+        "period": "2020 - Present",
+        "description": {
+          "0": "After demonstrating evolution and commitment during the internship, I was hired as a Junior Developer and started to take on greater responsibilities within the company's projects.",
+          "1": "I started with the complex implementation of an intelligent search bar in the actions menu.",
+          "2": "Today I develop and perform maintenance on the company's main app, working on improvements and new features.",
+          "3": "I improved the usability and mobile visual in various parts of the system.",
+          "4": "I participated in integrations of external APIs for use in the app.",
+          "5": "I constantly work on identifying and resolving technical problems and performance adjustments.",
+          "6": "I have the pleasure of supporting the technical growth of the team, sharing knowledge and assisting fellow developers."
         }
       }
     }
@@ -63,7 +78,7 @@
   },
   "skills": {
     "title": "Skills & Expertise",
-    "description": "I'm a professional who adapts quickly to new technologies and challenges. As a quick learner, I'm constantly expanding my skill set and seeking to improve my technical knowledge to deliver innovative solutions.",
+    "description": "I'm a professional who adapts quickly to new technologies and challenges. As a \"quick learner\", I'm constantly expanding my skill set and seeking to improve my technical knowledge to deliver innovative solutions.",
     "categories": {
       "frontend": {
         "title": "Frontend Development",
