@@ -15,17 +15,17 @@
     "viewAll": "View all projects"
   },
   "featuredProjects": {
-    "uNotes": {
-      "title": "uNotes",
-      "description": "Note-taking application developed with React, TypeScript, Tailwind CSS, and DaisyUI. Developed during college as a final project."
-    },
     "miaSotel": {
       "title": "Mia Sotel - Portfolio",
       "description": "Portfolio developed with React and Tailwind CSS for personal presentation."
     },
-    "booreal": {
-      "title": "Booreal - Presentation Site",
-      "description": "Website developed with React, Tailwind CSS, and Framer Motion for company presentation."
+    "augustodev": {
+      "title": "Augusto Dev - Portfolio",
+      "description": "Portfolio built with React, Vite, and Tailwind CSS to professionally showcase web development projects and skills."
+    },
+    "rouleteScriptDoxiwear": {
+      "title": "Discount Roulette - Doxiwear",
+      "description": "Discount wheel script developed for Shopify focused on email capture and promotional coupon distribution."
     }
   }
 }

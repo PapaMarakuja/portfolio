@@ -283,11 +283,18 @@ const skills = [
 
 const featuredProjects = [
   {
-    titleKey: "featuredProjects.uNotes.title",
-    descriptionKey: "featuredProjects.uNotes.description",
-    image: "/images/uNotes-print.png",
+    titleKey: "featuredProjects.rouleteScriptDoxiwear.title",
+    descriptionKey: "featuredProjects.rouleteScriptDoxiwear.description",
+    image: "/images/doxiwear-roulete.png",
+    tags: ["React.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    link: "https://doxiwear.com/",
+  },
+  {
+    titleKey: "featuredProjects.augustodev.title",
+    descriptionKey: "featuredProjects.augustodev.description",
+    image: "/images/augusto-dev.png",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    link: ""
+    link: "https://augustodev-237cd.web.app/",
   },
   {
     titleKey: "featuredProjects.miaSotel.title",
@@ -296,13 +303,6 @@ const featuredProjects = [
     tags: ["React.js", "TypeScript", "Tailwind CSS"],
     link: "https://miasotel.com/"
   },
-  {
-    titleKey: "featuredProjects.booreal.title",
-    descriptionKey: "featuredProjects.booreal.description",
-    image: "/images/booreal-print.png",
-    tags: ["React.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    link: "https://booreal-lab.web.app/"
-  }
 ];
 
 export default Home;
