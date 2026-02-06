@@ -77,6 +77,15 @@ const Projects = () => {
       link: "https://doxiwear.com/",
       github: "https://github.com/PapaMarakuja/roulete-script-doxiwear",
       featured: true
+    }, {
+      id: 7,
+      title: t('projects:items.severinoStudio.title'),
+      description: t('projects:items.severinoStudio.description'),
+      image: "",
+      tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "GSAP", "Three.js"],
+      link: "",
+      github: "",
+      featured: false
     }
   ];
 

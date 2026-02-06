@@ -30,6 +30,10 @@
     "rouleteScriptDoxiwear": {
       "title": "Discount Roulette - Doxiwear",
       "description": "Lightweight and customizable discount wheel script designed for Shopify. Enables capturing customer emails and rewarding them with coupons through a responsive and modern interface, featuring email validation, animated wheel interaction, and integration for lead storage using Supabase."
+    },
+    "severinoStudio": {
+      "title": "Severino Studio",
+      "description": "Coming soon."
     }
   },
   "cta": {

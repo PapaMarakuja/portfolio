@@ -30,6 +30,10 @@
     "rouleteScriptDoxiwear": {
       "title": "Roleta de Descontos - Doxiwear",
       "description": "Script de roleta de descontos leve e personalizável desenvolvido para Shopify. Permite capturar e-mails de clientes e recompensá-los com cupons através de uma interface responsiva e moderna, com validação de e-mail, animação da roleta e integração para armazenamento de leads com Supabase."
+    },
+    "severinoStudio": {
+      "title": "Severino Studio",
+      "description": "Novidades em breve."
     }
   },
   "cta": {
